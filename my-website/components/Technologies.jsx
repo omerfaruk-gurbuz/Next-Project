@@ -2,8 +2,8 @@ import React from 'react'
 
 const Tecnologies = () => {
   return (
-    <div class="mt-24">
-      <div class='text-white m-20'><p class="flex text-3xl font-semibold justify-center">Technologies I Use</p></div>
+    <div class="mt-44">
+      <div class='text-white m-20'><p class="flex text-5xl font-semibold justify-center">Technologies I Use</p></div>
         <div class="flex flex-wrap gap-8 m-4 justify-center items-center"> 
         <img class="w-44" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_wordmark_logo_icon_146375.png" alt="" />
         <img class="w-44" src="https://www.datocms-assets.com/75941/1657707878-nextjs_logo.png" alt="" />
