@@ -3,11 +3,13 @@ import "@/app/globals.css"
 
 import TopBar from "../../components/TopBar"
 import Portfolio from "../../components/Portfolio"
+import Technologies from "../../components/Technologies"
 const page = () => {
   return (
-    <div class="bg-black scroll-smooth">
+    <div class="bg-[#1B1B1B]">
       <TopBar/>
       <Portfolio/>
+      <Technologies/>
     </div>
     
   )
