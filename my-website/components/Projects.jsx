@@ -1,5 +1,5 @@
 import React from 'react';
-import data from "./Projectsdata";
+import data from "../src/app/helper/Projectsdata";
 
 const Projects = () => {
   return (

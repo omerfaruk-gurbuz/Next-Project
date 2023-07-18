@@ -36,7 +36,9 @@ const [isOpen, setOpen] = useState(false)
            </li>
         </ul>
       </div>
-        <div class="text-[#E5E7EB] mr-5 block md:hidden">
+        <div class="text-[#E5E7EB] mr-5 block md:hidden"
+        // class={`${isOpen ?"text-red-600 mr-5 block md:hidden":"text-teal-300"}`}
+        >
         <Hamburger toggled={isOpen} toggle={setOpen}/>
         </div>
     </nav>
