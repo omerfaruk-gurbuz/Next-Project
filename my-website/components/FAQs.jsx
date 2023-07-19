@@ -16,7 +16,7 @@ const FAQs = () => {
 
   return (
     <div class="">
-      <p class="text-5xl mt-44 text-white font-semibold justify-center">FAQs</p>
+      <p class="flex  justify-center text-5xl mt-44 text-white font-semibold">FAQs</p>
       {data.map(({ id, question, answer }) => (
         <div class="w-full" key={id}>
           {expandedId === id ? (

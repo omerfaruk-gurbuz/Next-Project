@@ -2,7 +2,7 @@ import React from 'react'
 
 const Tecnologies = () => {
   return (
-    <div class="mt-44">
+    <div class="mt-44" name='Tecnologies '>
       <div class='text-white m-20'><p class="flex text-5xl font-semibold justify-center">Technologies I Use</p></div>
         <div class="flex flex-wrap gap-8 m-4 justify-center items-center"> 
         <img class="w-44" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_wordmark_logo_icon_146375.png" alt="" />

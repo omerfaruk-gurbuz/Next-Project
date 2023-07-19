@@ -6,7 +6,8 @@ import Portfolio from "../../components/Portfolio"
 import Technologies from "../../components/Technologies"
 import Projects from "../../components/Projects"
 import FAQs from "../../components/FAQs"
-import data from "./helper/FAQsdata"
+import Getintouch from "../../components/Getintouch"
+import Footer from "../../components/Footer"
 
 const page = () => {
   return (
@@ -15,7 +16,9 @@ const page = () => {
       <Portfolio/>
       <Technologies/>
       <Projects/>
-      <FAQs data={...data}/> 
+      <FAQs/> 
+      <Getintouch/> 
+      <Footer/> 
     </div>
     
   )

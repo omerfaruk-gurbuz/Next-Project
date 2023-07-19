@@ -15,25 +15,25 @@ const [isOpen, setOpen] = useState(false)
            : 
           'hidden md:flex text-gray-200 text-xl gap-5 mt-5 mb-5  right-0'}`}>
           <li class="relative w-max one hover:scale-110 font-semibold cursor-pointer">
-           <span>Tech Stack</span>
+           <a href="#Tecnologies">Tech Stack</a>
            <span class="absolute -bottom-1 left-0 w-0 transition-all h-1 bg-red-400"></span>
            </li>
           <li class=" relative w-max one hover:scale-110 font-semibold cursor-pointer">
-           <span>Projects</span>
+          <a href="#Projects">Projects</a>
            <span class="absolute -bottom-1 left-0 w-0 transition-all h-1 bg-red-400"></span>
            </li>
           <li class=" relative w-max one hover:scale-110 font-semibold cursor-pointer">
-           <span>Testimonials</span>
+          <a href="#FAQs">FAQs</a>
            <span class="absolute -bottom-1 left-0 w-0 transition-all h-1 bg-red-400"></span>
            </li>
           <li class=" relative w-max one hover:scale-110 font-semibold cursor-pointer">
-           <span>FAQs</span>
+          <a href="#Getintouch">Get In Touch</a>
            <span class="absolute -bottom-1 left-0 w-0 transition-all h-1 bg-red-400"></span>
            </li>
-          <li class="relative w-max one hover:scale-110 font-semibold cursor-pointer">
-           <span>Get In Touch</span>
+          {/* <li class="relative w-max one hover:scale-110 font-semibold cursor-pointer">
+          <a href="#Tecnologies">Tech Stack</a>
            <span class="absolute -bottom-1 left-0 w-0 transition-all h-1 bg-red-400"></span>
-           </li>
+           </li> */}
         </ul>
       </div>
         <div class="text-[#E5E7EB] mr-5 block md:hidden"
